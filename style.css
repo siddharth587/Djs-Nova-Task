@@ -484,6 +484,12 @@ nav.active i {
     width: 70vw;
     height: 30vw;
   }
+  .insta i{
+    font-size: 10vw;
+  }
+  .link i{
+    font-size: 10vw;
+  }
 }
 
 
