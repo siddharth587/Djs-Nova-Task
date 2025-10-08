@@ -11,7 +11,8 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #000;
+    background:url(background1.jpg);
+   
     color: #fff;
     overflow-x: hidden;
 }
@@ -127,10 +128,12 @@ main {
 }
 
 .right img {
-    max-width: 90%;
+    /* max-width: 100%; */
+    width: 35vw;
     height: auto;
     /* object-fit: contain; */
     transform: translateY(-7%);
+   
 }
 
 
@@ -221,7 +224,22 @@ h1 {
 #events{
     height: 100vh;
 }
-
+.event-left img{
+  width: 20vw;
+  height: 10vw;
+}
+.event-right img{
+  width: 20vw;
+  height: 10vw;
+}
+.event1-right img{
+width: 20vw;
+height: 10vw;
+}
+.event1-left img{
+  width: 20vw;
+  height: 10vw;
+}
 .event-left, .event-right, .event1-left, .event1-right {
     background-color: #1c1c1c; /* Card background */
     padding: 20px;
@@ -393,7 +411,9 @@ nav.active i {
     width: 100%;
   }
   .right img{
-    margin-top: 15vw;
+    margin-top: 7vw;
+    width: 70vw;
+    
   }
 
 
@@ -427,9 +447,11 @@ nav.active i {
     transition: all 0.3s ease;
   }
 
+
   #about h1 {
     margin-bottom: 3vw;
-  }
+    
+ }
 
   .about-left {
     flex-direction: column;
@@ -467,7 +489,22 @@ nav.active i {
     flex-direction: column;
     margin-top: 3vw;
   }
-
+.event-left img{
+  width: 50vw;
+  height: 30vw;
+}
+.event-right img{
+  width: 50vw;
+  height: 30vw;
+}
+.event1-right img{
+ width: 50vw;
+  height: 30vw;
+}
+.event1-left img{
+ width: 50vw;
+  height: 30vw;
+}
   .event-left,
   .event-right,
   .event1-left,
